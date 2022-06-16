@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.card_container{
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px gray;
+   
+}
+.card_text{
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    color: black;
+}
+ .card_text h2{
+    margin-bottom: 10px;
+} 
+.card_text p{
+    font-size: 14px;
+} 
+.card1{
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    
+    border-top: 3px solid;
+    border-color: #55C3C2;
+    box-shadow: 10px 10px 5px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card4{
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    border-top: 3px solid;
+    border-color: #568CBA;
+    box-shadow: 10px 10px 5px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.flex_card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px;     
+}
+.inner_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card2{
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    align-self: flex-start;
+    border-top: 3px solid;
+    border-color: #B43F3F;
+    box-shadow: 10px 10px 5px gray;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+}
+.card3{
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    align-self: flex-end;
+    border-top: 3px solid;
+    border-color: #E4B360;
+    box-shadow: 10px 10px 5px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    width: 35px;
+    height: 35px;
+}
+.img_section{
+    text-align: right;
+   
+}
+.text_section p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: hsl(229, 6%, 66%);
+    
+    
+    
+}
+.text_section h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+h1{
+    font-weight: lighter;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    .card_container{
+        width: 100%;
+        height: auto;
+    }
+  }
