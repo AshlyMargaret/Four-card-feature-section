@@ -34,9 +34,10 @@ body{
     
     border-top: 3px solid;
     border-color: #55C3C2;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0px 4px 12px gray;
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 .card4{
@@ -45,7 +46,7 @@ body{
     background-color: white;
     border-top: 3px solid;
     border-color: #568CBA;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0px 4px 12px gray;
     padding: 20px;
     border-radius: 10px;
 }
@@ -70,7 +71,7 @@ body{
     align-self: flex-start;
     border-top: 3px solid;
     border-color: #B43F3F;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0px 4px 12px gray;
     padding: 20px;
     border-radius: 10px;
     
@@ -83,7 +84,7 @@ body{
     align-self: flex-end;
     border-top: 3px solid;
     border-color: #E4B360;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0px 4px 12px gray;
     padding: 20px;
     border-radius: 10px;
 }
