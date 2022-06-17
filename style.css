@@ -45,7 +45,7 @@ h2{
 }
 .card1{
     width: 250px;
-    height: 180px;
+    height: 200px;
     background-color: white; 
     border-top: 3px solid;
     border-color: #55C3C2;
@@ -58,7 +58,7 @@ h2{
 
 .card4{
     width: 250px;
-    height: 180px;
+    height: 200px;
     background-color: white;
     border-top: 3px solid;
     border-color: #568CBA;
@@ -75,7 +75,7 @@ h2{
 }
 .card2{
     width: 250px;
-    height: 180px;
+    height: 200px;
     background-color: white;
     align-self: flex-start;
     border-top: 3px solid;
@@ -88,7 +88,7 @@ h2{
 }
 .card3{
     width: 250px;
-    height: 180px;
+    height: 200px;
     background-color: white;
     align-self: flex-end;
     border-top: 3px solid;
@@ -148,5 +148,11 @@ footer{
         flex-wrap: nowrap;
         padding-left: 23px;
         padding-right: 23px;
+    }
+    .text_section h3 {
+        font-size: 20px;
+    }
+    .text_section h3 {
+        font-size: 20px;
     }
 }
